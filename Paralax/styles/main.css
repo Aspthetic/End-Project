@@ -1,0 +1,118 @@
+body, html{
+    color: #666;
+    margin: 0;
+    height: 100%;
+    font-size: 20px;
+    line-height: 1, 5em;
+    
+}
+.topImg{
+    background-image: url("../pictures/disturbing-creepy-images-reddit-28.jpg");
+    min-height: 100%;
+}
+.middleImg{
+    background-image: url("../pictures/face.png");
+    min-height: 30%;
+}
+.bottomImg{
+    background-image: url("../pictures/goat.jpg");
+    min-height: 30%;
+}
+.topImg, .middleImg, .bottomImg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.section{
+    text-align: center;
+    padding: 20px 20px;
+}
+.section-light{
+    font-size: larger;
+    color: rgba(208, 202, 202, 0.762);
+    background-color: rgb(28, 23, 23);
+    background-image: url("../pictures/goofy\ eye.png");
+    background-position: center;
+    
+
+}
+.section-dark{
+    background-color:rgb(28, 23, 23);
+    color: wrgba(208, 202, 202, 0.762);
+    height: 200px;
+    background-image: url("../pictures/brimstone.png");
+    background-size: 400px;
+    background-position: left;   
+    background-repeat: no-repeat;
+    
+
+}
+.section-vanta{
+    background-color:rgb(28, 23, 23);
+    color: rgba(208, 202, 202, 0.762);
+    height: 200px;
+    background-image: url("../pictures/blood.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background: size 200px;;
+}
+.pText{ 
+    font-size: 40px;
+    position:absolute;
+    top:20px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(28, 23, 23);
+    color: rgba(208, 202, 202, 0.762);
+    
+}
+
+.buttonSound{
+    margin: 0;
+    background-image: url("../pictures/ouroboros.png");
+    
+}
+
+li{
+    list-style-type:none;
+    float:left;
+}
+a{
+    color:white;
+    background-color: rgb(28, 23, 23);
+    padding:15px 15px;
+    margin-right:10px;
+    display:block;
+    font-size:32px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(51, 41, 41);
+}
+nav{
+    background-color: rgb(28, 23, 23);
+    width:100%;
+    display:flex;
+    
+    
+    
+    
+}
+
+
+.peoplemenu{
+    width: 75px;
+    height: 75px;
+}
+
+a.trianglebutton{
+    background-color: rgb(28, 23, 23);
+}
+@media screen and (max-width:500px)
+{
+    .pText{
+        background-color: pink;
+    }
+}
